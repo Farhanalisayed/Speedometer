@@ -1,0 +1,100 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.the-container {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 767px) {
+  .head {
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+  }
+  .image {
+    height: 300px;
+    width: 400px;
+  }
+  .para {
+    font-size: 20px;
+    color: white;
+  }
+  .speed {
+    font-size: 20px;
+    color: white;
+  }
+  .note {
+    color: #94a3b8;
+  }
+  .button-cont {
+    display: flex;
+  }
+  .accelerating {
+    border: 0px solid;
+    color: white;
+    background-color: #0b69ff;
+    width: 90px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  .braking {
+    border: 2px solid #94a3b8;
+    color: #94a3b8;
+    background-color: transparent;
+    width: 90px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .head {
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+  }
+  .image {
+    height: 250px;
+    width: 300px;
+  }
+  .para {
+    font-size: 15px;
+    color: white;
+  }
+  .speed {
+    font-size: 15px;
+    color: white;
+  }
+  .note {
+    color: #94a3b8;
+  }
+  .button-cont {
+    display: flex;
+  }
+  .accelerating {
+    margin: 5px;
+    border: 0px solid;
+    color: white;
+    background-color: #0b69ff;
+    width: 90px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  .braking {
+    border: 2px solid #94a3b8;
+    color: #94a3b8;
+    background-color: transparent;
+    width: 90px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+}
